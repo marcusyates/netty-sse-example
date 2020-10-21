@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'sse'
+version '0.0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // netty
+    implementation 'io.netty:netty-all:4.1.52.Final'
+
+    // log4j
+    implementation 'org.apache.logging.log4j:log4j-api:2.11.1'
+    implementation 'org.apache.logging.log4j:log4j-core:2.11.1'
+    implementation 'org.apache.logging.log4j:log4j-slf4j-impl:2.11.1'
+
+    testImplementation 'com.squareup.okhttp3:okhttp:4.9.0'
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+}
+

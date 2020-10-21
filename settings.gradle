@@ -1,0 +1,5 @@
+rootProject.name = 'netty-sse-example'
+
+include ':web'
+include ':stats'
+include ':app'
