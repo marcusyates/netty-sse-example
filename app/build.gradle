@@ -5,7 +5,7 @@ plugins {
 
 apply plugin: 'application'
 
-group 'sse'
+group 'com.marcusyates.sse'
 
 repositories {
     mavenCentral()
@@ -25,4 +25,4 @@ dependencies {
     testImplementation group: 'junit', name: 'junit', version: '4.12'
 }
 
-mainClassName = 'sse.app.VmstatSseApplication'
+mainClassName = 'com.marcusyates.sse.app.VmstatSseApplication'

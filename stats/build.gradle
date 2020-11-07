@@ -2,8 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'sse'
-version '0.0.1'
+group 'com.marcusyates.sse'
 
 repositories {
     mavenCentral()
